@@ -1,0 +1,105 @@
+/* General Page Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #9f6e81;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+/* Blog Detail Section */
+.blog-detail {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.blog-detail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.blog-detail article img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.blog-detail article img:hover {
+  transform: scale(1.05);
+}
+
+.blog-detail article p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Links */
+.blog-detail article a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f73859;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.blog-detail article a:hover {
+  background-color: #d1345b;
+}
+
+/* Footer */
+footer {
+  background-color: #283149;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+/* Container Styling for Smooth Layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 1.8em;
+  }
+
+  .blog-detail article p {
+      font-size: 1em;
+  }
+
+  .blog-detail {
+      padding: 20px;
+  }
+}

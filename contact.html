@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Sumaiya Trendy Collection</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+    .header {
+      background-color: #9f6e81;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .header p {
+      font-size: 1.2em;
+    }
+
+    /* Contact Info*/
+    .ContactInfo {
+      background-color: #f5f5f5;
+      padding: 60px 60px;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: auto;
+      gap: 40px;
+      /* Margin between contact and email sections */
+    }
+
+    .ContactInfo .contact {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .ContactInfo .contact p,
+    .ContactInfo .contact h1,
+    .ContactInfo .contact h2 {
+      color: #333;
+      margin-bottom: 15px;
+
+
+    }
+
+    .ContactInfo p {
+      font-size: 19px;
+    }
+
+    .ContactInfo h2 {
+      font-size: 27px;
+    }
+
+    .ContactInfo .contact h1 {
+      letter-spacing: 1px;
+      font-size: 35px;
+
+      margin-top: 10px;
+      color: #4d042f;
+      /* Primary color */
+      font-weight: bold;
+    }
+
+    .ContactInfo .contact .info-title {
+      font-size: 17px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .ContactInfo .form {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      /* margin:  20px; */
+      margin-top: 30px;
+
+    }
+
+    .ContactInfo .input-row {
+      display: flex;
+      gap: 19px;
+      /* Space between name and email inputs */
+      margin-bottom: 40px;
+    }
+
+    .ContactInfo .input-row input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 0px;
+      font-size: 16px;
+
+    }
+
+    .ContactInfo .form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 0px;
+      font-size: 16px;
+      height: 120px;
+      resize: none;
+    }
+
+
+
+    .ContactInfo .form button {
+      padding: 12px 30px;
+      background-color: #4d042f;
+      /* Primary color */
+      color: white;
+      border: none;
+      border-radius: 0px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      align-self: flex-start;
+      /* Align button to the left */
+      width: auto;
+      /* Ensure button does not take full width */
+    }
+
+    .ContactInfo .form button:hover {
+      background-color: #402c34;
+      /* Darker shade for hover effect */
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+
+      .contact {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-logo">
+      <!-- <a href="#"><img src="./assets/images/navlogo.png" alt="nav-logo"></a> -->
+      <a href="#"><img src="./assets/images/all-Images/navlogo.png" alt="nav-logo"></a>
+    </div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <div class="header">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </div>
+
+  <section class="ContactInfo">
+    <div class="contact-container">
+      <div class="contact">
+        <p class="info-title">STAY CONNECTED</p>
+        <h1>Get the Latest Updates</h1>
+        <p>Be the first to know about new arrivals, exclusive collections, and special offers on modest wear.</p>
+        <h2>KSA</h2>
+        <p>123 Al Khobar St, Eastern Province, Saudi Arabia<br>+966 1234-567-890</p>
+        <h2>India</h2>
+        <p>HW95+C9C, Pune, Maharashtra, 411014</p>
+      </div>
+      <div class="form">
+        <div class="input-row">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <textarea placeholder="Message" required></textarea>
+        <button>SEND MESSAGE</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="sumaiyatrendy">
+        <a href="index1.html">
+          <img src="./assets/images/all-Images/footerlogo.png" alt="Logo">
+        </a>
+        <p>Your one-stop destination for elegant and modest clothing, beauty essentials, and accessories that celebrate
+          grace and style.</p>
+      </div>
+
+      <div class="shopping">
+        <h2>QUICK LINKS</h2>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Payment Method</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Return and Exchange</a></li>
+        </ul>
+      </div>
+
+      <div class="shopping">
+        <h2>SHOPPING</h2>
+        <ul>
+          <li><a href="#"> Modest Clothing Store</a></li>
+          <li><a href="#">Beauty Products</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="newsletter">
+        <h2>NESLETTER</h2>
+        <p>Be the first to know about new arrivals, special collections, sales, and exclusive offers!</p>
+        <input type="email" placeholder="Your Email">
+        <button>Subscribe</button>
+      </div>
+      <hr>
+      <div class="copyright">
+        © 2024 www.SumaiyaTrendyCollections.com. All rights reserved.
+      </div>
+    </div>
+
+
+  </footer>
+</body>
+
+</html>
