@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Project by Sumaiya Dingankar - HTML, CSS, JS</title>
+  <meta name="description"
+    content="A beginner e-commerce project created using HTML, CSS, and JavaScript by Sumaiya Dingankar.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, E-commerce, Sumaiya Dingankar, Beginner Project">
+  <!-- Add Font Awesome for the search icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><img src="./assets/images/all-Images/navlogo.png" alt=""></a>
+    </div>
+    <nav class="nav-list">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    </nav>
+    <div class="search-bar">
+      <i class="fa fa-search search-icon "></i>
+      <input type="text" placeholder="Search for clothes,beauty and more..">
+    </div>
+    <div class="nav-icons">
+      <div class="icon">
+        <a href="#"><img src="./assets/images/all-Images/profile.png" alt="profile"></a>
+        <p>Profile</p>
+
+      </div>
+      <div  class="icon">
+        <a href="#"><img src="./assets/images/all-Images/wishlist.png" alt="wishlist"></a>
+        <p>Wishlist</p>
+
+      </div>
+      <div  class="icon">
+        <a href="bag.html"><img src="./assets/images/all-Images/shopping-cart.png" alt="bag"></a>
+        <p>Bag</p>
+        <span class="bag-item-count">0</span>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="home-hero">
+    <div class="hero-content">
+      <p class="collection-title">MODERN MODEST WEAR</p>
+      <h2 class="hero-heading">EMBRACE YOUR STYLE<br>WITH CONFIDENCE</h2>
+      <div class="hero-description">
+        <p>At Sumaiya Trendy Collections, we believe that modesty and style go hand in hand. <br> Embrace elegance with
+          our thoughtfully designed modest clothing. <br> Crafted with care for every occasion, ensuring comfort and
+          style.</p>
+      </div>
+      <button class="shop-button"><a href="shop.html">SHOP NOW</a><i class='bx bx-right-arrow-alt'></i></button>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-pinterest'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+</section>
+
+<section class="collection">
+  <h2 class="collection-heading">Our Exclusive Collection</h2>
+  <div class="collection-images">
+    <img class="collection-item" src="./assets/images/collection/1.jpeg" alt="Collection Item 1">
+    <img class="collection-item" src="./assets/images/collection/2.jpeg" alt="Collection Item 2">
+    <img class="collection-item" src="./assets/images/collection/3.jpeg" alt="Collection Item 3">
+    <img class="collection-item" src="./assets/images/collection/4.jpeg" alt="Collection Item 4">
+    <img class="collection-item" src="./assets/images/collection/5.jpeg" alt="Collection Item 5">
+  </div>
+</section>
+
+
+<section class="ContactInfo">
+  <div class="contact-container">
+    <div class="contact">
+      <p class="info-title">STAY CONNECTED</p>
+      <h1>Get the Latest Updates</h1>
+      <p>Be the first to know about new arrivals, exclusive collections, and special offers on modest wear.</p>
+      <h2>KSA</h2>
+      <p>123 Al Khobar St, Eastern Province, Saudi Arabia +966 1234-567-890</p>
+      <h2>India</h2>
+      <p>HW95+C9C, Pune, Maharashtra, 411014</p>
+    </div>
+    <div class="form">
+      <div class="input-row">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+      </div>
+      <textarea placeholder="Message"></textarea>
+      <button>SEND MESSAGE</button>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-brand">
+      <a href="index.html">
+        <img src="./assets/images/all-Images/footerlogo.png" alt="Logo">
+      </a>
+      <p>Your one-stop destination for elegant and modest clothing, beauty essentials, and accessories that celebrate
+        grace and style.</p>
+    </div>
+
+    <div class="footer-links">
+      <h2>QUICK LINKS</h2>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Payment Method</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Return and Exchange</a></li>
+      </ul>
+    </div>
+
+    <div  class="footer-shop">
+      <h2>SHOPPING</h2>
+      <ul>
+        <li><a href="#"> Modest Clothing Store</a></li>
+        <li><a href="#">Beauty Products</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-newsletter">
+      <h2>NESLETTER</h2>
+      <p>Be the first to know about new arrivals, special collections, sales, and exclusive offers!</p>
+      <input type="email" placeholder="Your Email">
+      <button>Subscribe</button>
+    </div>
+    <hr>
+    <div class="copyright">
+      © 2024 www.SumaiyaTrendyCollections.com. All rights reserved.
+    </div>
+  </div>
+
+
+</footer>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Sumaiya Trendy Collection</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" >
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+
+    .blog-section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .blog-section h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .blog-post {
+      display: flex;
+      background-color: #fff;
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-post img {
+      width: 30%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 20px;
+      width: 70%;
+    }
+
+    .blog-content h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .blog-content p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .blog-content a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .blog-content a:hover {
+      background-color: #555;
+    }
+    /* Default styling for larger screens (desktops and laptops) */
+
+/* Tablet screens (768px and below) */
+@media (max-width: 768px) {
+  .blog-section {
+    padding: 0 10px;
+  }
+
+  /* Adjust heading size for smaller screens */
+  .blog-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  /* Stack the blog posts vertically for easier reading on tablet screens */
+  .blog-post {
+    flex-direction: column;
+  }
+
+  /* Set image width to full width on smaller screens */
+  .blog-post img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust blog content width and padding */
+  .blog-content {
+    width: 100%;
+    padding: 15px;
+  }
+
+}
+
+/* Mobile screens (480px and below) */
+@media (max-width: 480px) {
+  /* Smaller font sizes for mobile screens */
+  .blog-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Stack blog posts vertically with reduced padding */
+  .blog-post {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  /* Image fills screen width */
+  .blog-post img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Blog content adjusts to full width */
+  .blog-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+}
+
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-logo">
+      <!-- <a href="#"><img src="./assets/images/navlogo.png" alt="nav-logo"></a> -->
+      <a href="#"><img src="./assets/images/all-Images/navlogo.png" alt="nav-logo"></a>
+    </div>
+    <nav class="nav-list">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <!-- Search icon before input text -->
+      <i class="fas fa-search search-icon"></i>
+      <input type="text" placeholder="What are you searching for?">
+
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-section">
+      <h2>Our Blog</h2>
+
+      <div class="blog-post">
+        <img src="./Blogs/blog-images/Clothes.jpg" alt="Stylish Abayas">
+        <div class="blog-content">
+          <h3>Top Modest Clothing Trends for 2024</h3>
+          <p>Discover the latest in modest fashion that blends style and elegance. From abayas to long skirts, explore
+            how to dress modestly without compromising on trendiness.</p>
+          <a href="./Blogs/clothesblog.html">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-post">
+        <img src="./Blogs/blog-images/cosmetic.jpeg" alt="Modest Fashion Tips">
+        <div class="blog-content">
+          <h3>Beauty Essentials for a Natural Look</h3>
+          <p>Learn how to enhance your natural beauty with simple, everyday skincare and makeup tips. We cover
+            everything from glowing skin to effortless makeup looks.</p>
+          <a href="./Blogs/beautyblog.html">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-post">
+        <img src="./Blogs/blog-images/accessory.jpeg" alt="Trendy Hijabs">
+        <div class="blog-content">
+          <h3>Elegant Jewellery to Complete Your Outfit</h3>
+          <p>Explore our collection of beautiful, elegant jewelry pieces that perfectly complement any modest outfit.
+            From delicate pendants to statement earrings, we have it all.</p>
+          <a href="./Blogs/jewellaryblog.html">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-post">
+        <img src="./Blogs/blog-images/book (1).jpeg" alt="Trendy Hijabs">
+        <div class="blog-content">
+          <h3>Books to Inspire and Motivate Every Woman</h3>
+          <p>Check out our curated list of books that inspire and educate women. Whether you're looking for motivational
+            reads or spiritual guidance, we have suggestions for you.</p>
+          <a href="./Blogs/booksblog.html">Read More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html">
+          <img src="./assets/images/all-Images/footerlogo.png" alt="Logo">
+        </a>
+        <p>Your one-stop destination for elegant and modest clothing, beauty essentials, and accessories that celebrate
+          grace and style.</p>
+      </div>
+
+      <div class="footer-links">
+        <h2>QUICK LINKS</h2>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Payment Method</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Return and Exchange</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-shop">
+        <h2>SHOPPING</h2>
+        <ul>
+          <li><a href="#"> Modest Clothing Store</a></li>
+          <li><a href="#">Beauty Products</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h2>NESLETTER</h2>
+        <p>Be the first to know about new arrivals, special collections, sales, and exclusive offers!</p>
+        <input type="email" placeholder="Your Email">
+        <button>Subscribe</button>
+      </div>
+      <hr>
+      <div class="copyright">
+        © 2024 www.SumaiyaTrendyCollections.com. All rights reserved.
+      </div>
+    </div>
+
+
+  </footer>
+
+</body>
+
+</html>
